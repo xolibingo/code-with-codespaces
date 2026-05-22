@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/code-with-codespaces/',
+  base: './',
   build: {
     outDir: 'dist',
     rollupOptions: {
